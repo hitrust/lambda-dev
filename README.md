@@ -14,6 +14,7 @@ Lambda runs your code on high availability compute infrastructure and performs a
 - [Data Processing](#data-processing)
 - [Mobile Backend Development](#mobile-backend-development)
 - [Edge Computing](#edge-computing)
+- [Open Source Repository](#open-source-repository)
 
 # Features
 
@@ -37,6 +38,10 @@ Lambda runs your code on high availability compute infrastructure and performs a
 
 ## AWS Serverless Application Model (SAM)
 AWS Serverless Application Model (AWS SAM) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings.
+
+-[serverless-application-model](https://github.com/aws/serverless-application-model)
+
+-[aws-sam-cli](https://github.com/aws/aws-sam-cli)
 
 ## AWS Cloud Development Kit (AWS CDK)
 AWS Cloud Development Kit (AWS CDK) is an open source software development framework to define your cloud application resources using familiar programming languages.
@@ -62,3 +67,27 @@ AWS Cloud Development Kit (AWS CDK) is an open source software development frame
  ## IoT backends
 Build serverless backends using AWS Lambda to handle web, mobile, Internet of Things (IoT), and third-party API requests.
 
+# Open Source Repository
+## Cloud Custodian
+Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
+-[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)
+
+## AWS Data Wrangler
+Pandas on AWS - Easy integration with Athena, Glue, Redshift, Timestream, Neptune, OpenSearch, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL). 
+-[AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler)
+
+## StreamAlert
+StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.  
+-[StreamAlert](https://github.com/airbnb/streamalert)
+
+## AWS Lambda Powertools for Python
+A suite of utilities for AWS Lambda Functions that makes tracing with AWS X-Ray, structured logging and creating custom metrics asynchronously easier.  
+-[AWS Lambda Powertools for Python](https://github.com/awslabs/aws-lambda-powertools-python)
+
+## AWS Serverless Ecommerce Platform
+Serverless Ecommerce Platform is a sample implementation of a serverless backend for an e-commerce website. This sample is not meant to be used as an e-commerce platform as-is, but as an inspiration on how to build event-driven serverless microservices on AWS.  
+-[AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
+
+## Real-time File Processing
+Serverless Reference Architecture for Real-time File Processing .  
+-[Real-time File Processing](https://github.com/aws-samples/lambda-refarch-fileprocessing)
