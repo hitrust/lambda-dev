@@ -99,9 +99,11 @@ AWS Cloud Development Kit (AWS CDK) is an open source software development frame
 ## Chalice
  Chalice is a framework for writing serverless apps in Python. It allows you to quickly create and deploy applications that use AWS Lambda.
 
- -[Docs](https://aws.github.io/chalice/?badge=latest)
+-[Docs](https://aws.github.io/chalice/?badge=latest)
 
 -[Chalice Repository](https://github.com/aws/chalice)
+
+-[Chalice Dev Repository](https://github.com/hitrust/lambda-dev/tree/master/Web%20App%20Dvelopment/chalice)
  
  # Data Processing
 
