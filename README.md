@@ -7,7 +7,7 @@ AWS Lambda is a serverless compute service that runs your code in response to ev
 Lambda runs your code on high availability compute infrastructure and performs all the administration of your compute resources. This includes server and operating system maintenance, capacity provisioning and automatic scaling, code and security patch deployment, and code monitoring and logging. All you need to do is supply the code.
 
 # Contents
-- [Docs](#docs)
+- [Resources](#resources)
 - [Related Services](#related-products)
 - [Developer Tools](#developer-tools)
 - [Web App Dvelopment](#web-app-dvelopment)
@@ -16,15 +16,19 @@ Lambda runs your code on high availability compute infrastructure and performs a
 - [Edge Computing](#edge-computing)
 - [Open Source Repository](#open-source-repository)
 
-# Docs
+# Resources
 
--[AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+-[Resources](https://aws.amazon.com/lambda/resources/)
+
+-[Docs](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 
 # Related Products
 
 ## Amazon API Gateway
 
 Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the "front door" for applications to access data, business logic, or functionality from your backend services. Using API Gateway, you can create RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.
+
+-[Resources](https://aws.amazon.com/api-gateway/resources/)
 
 -[Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html)
 
@@ -33,11 +37,15 @@ Amazon API Gateway is a fully managed service that makes it easy for developers 
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements. 
 
+-[Resources](https://aws.amazon.com/s3/resources/?nc=sn&loc=6)
+
 -[Docs](http://docs.aws.amazon.com/AmazonS3/latest/dev/)
 
 ## Amazon DynamoDB
 
 Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data export tools. 
+
+-[Resources](https://aws.amazon.com/dynamodb/resources/)
 
 -[Docs](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/)
 
@@ -45,11 +53,15 @@ Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designe
 
 AWS Step Functions is a low-code, visual workflow service that developers use to build distributed applications, automate IT and business processes, and build data and machine learning pipelines using AWS services. Workflows manage failures, retries, parallelization, service integrations, and observability so developers can focus on higher-value business logic.
 
+-[Resources](https://aws.amazon.com/step-functions/resources/)
+
 -[Docs](http://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
 
 ## Amazon Simple Notification Service (Amazon SNS)
 
 Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
+
+-[Resources](https://aws.amazon.com/sns/resources/)
 
 -[Docs](https://aws.amazon.com/documentation/sns/)
 
@@ -57,13 +69,31 @@ Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging ser
 
 Amazon EventBridge is a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated Software-as-a-Service (SaaS) applications, and AWS services. EventBridge delivers a stream of real-time data from event sources such as Zendesk or Shopify to targets like AWS Lambda and other SaaS applications. You can set up routing rules to determine where to send your data to build application architectures that react in real-time to your data sources with event publisher and consumer completely decoupled.
 
+-[Resources](https://aws.amazon.com/eventbridge/resources/)
+
 -[Docs](https://docs.aws.amazon.com/eventbridge/latest/userguide/index.html)
 
 ## Amazon Simple Queue Service (Amazon SQS)
 
 Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. SQS eliminates the complexity and overhead associated with managing and operating message-oriented middleware, and empowers developers to focus on differentiating work. Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available. Get started with SQS in minutes using the AWS Management Console, Command Line Interface or SDK of your choice, and three simple commands.
 
+-[Resources](https://aws.amazon.com/sqs/resources/)
+
 -[Docs](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html)
+
+## AWS CloudFormation
+
+AWS CloudFormation gives you an easy way to model a collection of related AWS and third-party resources, provision them quickly and consistently, and manage them throughout their lifecycles, by treating infrastructure as code. A CloudFormation template describes your desired resources and their dependencies so you can launch and configure them together as a stack. You can use a template to create, update, and delete an entire stack as a single unit, as often as you need to, instead of managing resources individually. You can manage and provision stacks across multiple AWS accounts and AWS Regions.
+
+Scale your infrastructure worldwide and manage resources across all AWS accounts and regions through a single operation.
+
+Extend and manage your infrastructure to include cloud resources published in the CloudFormation Registry, the developer community, and your library.
+
+Automate resource management across your organization with AWS service integrations offering turnkey application distribution and governance controls.
+
+-[Resources](https://aws.amazon.com/cloudformation/resources/)
+
+-[Docs](https://aws.amazon.com/documentation/cloudformation/)
 
 # Developer Tools
 
