@@ -133,7 +133,7 @@ AWS Cloud Development Kit (AWS CDK) is an open source software development frame
 
 -[Chalice Repository](https://github.com/aws/chalice)
 
--[Chalice Dev Repository](https://github.com/hitrust/lambda-dev/tree/master/Web%20App%20Dvelopment/chalice)
+-[Chalice Dev Repository](./Web%20App%20Dvelopment/chalice/)
  
  # Data Processing
 

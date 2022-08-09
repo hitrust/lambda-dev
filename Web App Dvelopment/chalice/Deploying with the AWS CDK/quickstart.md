@@ -85,4 +85,4 @@ $ http POST EndpointURL
 
 ## FAQ & Trouble Shots
 
--[FAQ & Trouble Shots](FAQ & Trouble Shots)
+-[FAQ & Trouble Shots](./FAQ%20%26%20Trouble%20Shots/)
