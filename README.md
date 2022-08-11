@@ -101,8 +101,6 @@ Automate resource management across your organization with AWS service integrati
 
 The AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings. With just a few lines per resource, you can define the application you want and model it using YAML. During deployment, SAM transforms and expands the SAM syntax into AWS CloudFormation syntax, enabling you to build serverless applications faster.
 
-AWS Serverless Application Model (AWS SAM) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings.
-
 -[Docs](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 
 -[SAM CLI Command Reference](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-command-reference.html)
@@ -114,8 +112,6 @@ AWS Serverless Application Model (AWS SAM) is an open-source framework for build
 ## AWS Cloud Development Kit (AWS CDK)
 
 The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define your cloud application resources using familiar programming languages.
-
-AWS Cloud Development Kit (AWS CDK) is an open source software development framework to define your cloud application resources using familiar programming languages.
 
 -[Docs](https://docs.aws.amazon.com/cdk/latest/guide/home.html)
 
