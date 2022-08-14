@@ -81,20 +81,6 @@ Amazon Simple Queue Service (SQS) is a fully managed message queuing service tha
 
 -[Docs](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html)
 
-## AWS CloudFormation
-
-AWS CloudFormation gives you an easy way to model a collection of related AWS and third-party resources, provision them quickly and consistently, and manage them throughout their lifecycles, by treating infrastructure as code. A CloudFormation template describes your desired resources and their dependencies so you can launch and configure them together as a stack. You can use a template to create, update, and delete an entire stack as a single unit, as often as you need to, instead of managing resources individually. You can manage and provision stacks across multiple AWS accounts and AWS Regions.
-
-Scale your infrastructure worldwide and manage resources across all AWS accounts and regions through a single operation.
-
-Extend and manage your infrastructure to include cloud resources published in the CloudFormation Registry, the developer community, and your library.
-
-Automate resource management across your organization with AWS service integrations offering turnkey application distribution and governance controls.
-
--[Resources](https://aws.amazon.com/cloudformation/resources/)
-
--[Docs](https://aws.amazon.com/documentation/cloudformation/)
-
 # Developer Tools
 
 ## AWS Serverless Application Model (SAM)
@@ -111,13 +97,37 @@ The AWS Serverless Application Model (SAM) is an open-source framework for build
 
 ## AWS Cloud Development Kit (AWS CDK)
 
-The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define your cloud application resources using familiar programming languages.
+The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define cloud infrastructure in code and provision it through AWS CloudFormation.
+
+It offers a high-level object-oriented abstraction to define AWS resources imperatively using the power of modern programming languages. Using the CDK’s library of infrastructure constructs, you can easily encapsulate AWS best practices in your infrastructure definition and share it without worrying about boilerplate logic.
 
 -[Docs](https://docs.aws.amazon.com/cdk/latest/guide/home.html)
 
 -[CDK Repository](https://github.com/aws/aws-cdk)
 
 -[Construct Hub](https://constructs.dev/packages/aws-cdk-lib/v/2.33.0?lang=python)
+
+## AWS CloudFormation
+
+AWS CloudFormation gives you an easy way to model a collection of related AWS and third-party resources, provision them quickly and consistently, and manage them throughout their lifecycles, by treating infrastructure as code. A CloudFormation template describes your desired resources and their dependencies so you can launch and configure them together as a stack. You can use a template to create, update, and delete an entire stack as a single unit, as often as you need to, instead of managing resources individually. You can manage and provision stacks across multiple AWS accounts and AWS Regions.
+
+Scale your infrastructure worldwide and manage resources across all AWS accounts and regions through a single operation.
+
+Extend and manage your infrastructure to include cloud resources published in the CloudFormation Registry, the developer community, and your library.
+
+Automate resource management across your organization with AWS service integrations offering turnkey application distribution and governance controls.
+
+-[Resources](https://aws.amazon.com/cloudformation/resources/)
+
+-[Docs](https://aws.amazon.com/documentation/cloudformation/)
+
+## Amazon CloudWatch
+
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners. CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, and optimize resource utilization. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events. You get a unified view of operational health and gain complete visibility of your AWS resources, applications, and services running on AWS and on-premises. You can use CloudWatch to detect anomalous behavior in your environments, set alarms, visualize logs and metrics side by side, take automated actions, troubleshoot issues, and discover insights to keep your applications running smoothly.
+
+-[Resources](https://aws.amazon.com/cloudwatch/getting-started/)
+
+-[Doc](https://docs.aws.amazon.com/cloudwatch/index.html)
 
  # Web App Dvelopment
  Combine AWS Lambda with other AWS services to build powerful web applications that automatically scale up and down and run in a highly available configuration across multiple data centers.
